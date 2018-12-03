@@ -20,8 +20,8 @@ To run the project localy please do the following steps:
 7. Enter "php bin/console server:run" command and open the shown address.
 
 REST API Documentation:
-1. Get all articles: http://127.0.0.1:8000/api/articles  -method "GET"
-2. Get article by id: http://127.0.0.1:8000/api/articles/{id}  -method "GET"
-3. Update article by id: http://127.0.0.1:8000/api/articles/{id}  -method "PUT" put body {"title":"","content":"","authorId":{id}}
-4. Create article: http://127.0.0.1:8000/api/articles/create  -method "POST"  post body {"title":"","content":"","authorId":{id}}
-5. Delete article: http://127.0.0.1:8000/api/articles/{id}  -method "DELETE"
+1. Get all articles: http://127.0.0.1:8000/api/article  -method "GET"
+2. Get article by id: http://127.0.0.1:8000/api/article/{id}  -method "GET"
+3. Update article by id: http://127.0.0.1:8000/api/article/{id}  -method "PUT" put body {"title":"","content":"","authorId":{id}}
+4. Create article: http://127.0.0.1:8000/api/article/create  -method "POST"  post body {"title":"","content":"","authorId":{id}}
+5. Delete article: http://127.0.0.1:8000/api/article/{id}  -method "DELETE"
