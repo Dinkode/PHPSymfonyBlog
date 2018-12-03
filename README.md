@@ -8,7 +8,7 @@ Project Features:
 4. Roles
 5. Articles CRUD operations
 6. Local image uploader
-7. REST API services.
+7. REST API services in JSON format.
 
 To run the project localy please do the following steps:
 1. Download the project.
