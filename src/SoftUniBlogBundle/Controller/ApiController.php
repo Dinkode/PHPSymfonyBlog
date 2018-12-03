@@ -13,7 +13,7 @@ use Symfony\Component\HttpFoundation\Request;
 class ApiController extends Controller
 {
     /**
-     * @Route("/api/articles", name="rest_api_articles", methods={"GET"})
+     * @Route("/api/article", name="rest_api_articles", methods={"GET"})
      */
     public function articlesAction()
     {
@@ -30,7 +30,7 @@ class ApiController extends Controller
     }
 
     /**
-     * @Route("/api/articles/{id}", name="rest_api_article", methods={"GET"})
+     * @Route("/api/article/{id}", name="rest_api_article", methods={"GET"})
      * @param $id
      * @return JsonResponse
      */
@@ -49,7 +49,7 @@ class ApiController extends Controller
     }
 
     /**
-     * @Route("/api/articles/create", name="rest_api_article_create", methods={"POST"})
+     * @Route("/api/article/create", name="rest_api_article_create", methods={"POST"})
      * @param Request $request
      * @return Response
      */
@@ -77,7 +77,7 @@ class ApiController extends Controller
     }
 
     /**
-     * @Route("/api/articles/{id}", name="rest_api_article_edit", methods={"PUT"})
+     * @Route("/api/article/{id}", name="rest_api_article_edit", methods={"PUT"})
      * @param Request $request
      * @return Response
      */
@@ -104,7 +104,7 @@ class ApiController extends Controller
     }
 
     /**
-     * @Route("/api/articles/{id}", name="rest_api_article_edit", methods={"DELETE"})
+     * @Route("/api/article/{id}", name="rest_api_article_edit", methods={"DELETE"})
      * @param Request $request
      * @return Response
      */
