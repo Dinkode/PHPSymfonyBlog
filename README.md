@@ -14,4 +14,6 @@ To run the project localy please do the following steps:
 2. Start MySQL.
 3. Run the CMD Prompt in the project directory.
 4. Enter "composer install" command.
-5. When the dependencies are installed enter "php bin/console server:run" command.
+5. Enter "php bin/console doctrine:database:create" command.
+6. Enter "php bin/console doctrine:schema:update --force"
+7. When the dependencies are installed enter "php bin/console server:run" command.
